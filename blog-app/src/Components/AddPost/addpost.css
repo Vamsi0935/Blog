@@ -1,6 +1,9 @@
-body{
-    background-color: #979a9a;
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .add-post-container {
     max-width: 600px;
     margin: 3% auto;
