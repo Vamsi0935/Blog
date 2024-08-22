@@ -58,13 +58,18 @@ const PostEditModal = ({ post, onSave, onClose }) => {
           </div>
           <div>
             <label>Category:</label>
-            <input
-              type="text"
+            <select
               value={category}
               onChange={(e) => setCategory(e.target.value)}
-            />
+            >
+              <option value="">Select a category</option>
+              <option value="Technology">Technology</option>
+              <option value="Lifestyle">Lifestyle</option>
+              <option value="Education">Education</option>
+              <option value="Health">Health</option>
+            </select>
           </div>
-          <button type="submit">Save</button>
+          <button type="submit">Update</button>
         </form>
       </div>
     </div>

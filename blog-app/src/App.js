@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import AddPost from "./Components/AddPost/AddPost";
 import PostList from "./Components/PostList/PostList";
-// import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import PostEditModal from "./Components/PostEditModal/PostEditModal";
 import ContactUs from "./Components/Contact/ContactUs";

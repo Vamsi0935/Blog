@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 import "./addpost.css";
 
 const AddPost = ({ onAddPost }) => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [category, setCategory] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,6 +19,8 @@ const AddPost = ({ onAddPost }) => {
           text: "Post has been added successfully.",
           icon: "success",
           confirmButtonText: "OK",
+        }).then(() => {
+          navigate("/postlist");
         });
         setTitle("");
         setContent("");
