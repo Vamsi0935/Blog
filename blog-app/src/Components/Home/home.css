@@ -1,0 +1,53 @@
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: right;
+    margin-left: 20%;
+}
+
+.overlay-text h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: rgb(211, 232, 23);
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.overlay-text p {
+    font-size: 3rem;
+    margin: 10px 0 0;
+    font-family: cursive;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
